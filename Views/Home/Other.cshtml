@@ -1,0 +1,12 @@
+﻿@model Quote
+
+@{
+    ViewData["Title"] = "Other Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Other Page - Quote</h1>
+    <a asp-action="Index">Home</a>
+    <p>@Model.Text - @Model.Author</p>
+  
+</div>
